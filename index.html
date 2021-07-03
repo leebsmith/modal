@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="modal.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <script src="main.js"></script>
+    <script>document.addEventListener("DOMContentLoaded", function() {run();});
+    </script>
+    <title>Modal Dialog Box</title>
+</head>
+<body>
+    <template id="confirm">
+        <form method="dialog">
+            <header>
+                Are you sure?
+            </header>
+            <article>
+                Are you <b>really</b> sure you want to<br>do this? This can't be undone.
+            </article>
+            <nav>
+                <button id="submit" type="submit">Yes<span class="material-icons">check</span></button>
+                <button id="cancel" type="reset">No<span class="material-icons">close</span></button>
+            </nav>
+        </form>
+    </template>
+</body>
+</html>

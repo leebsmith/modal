@@ -1,0 +1,45 @@
+#active_dialog {
+    font-family: Lato, sans-serif;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#active_dialog header {
+    padding: 0.5rem;
+    background-color: #eee;
+    border-bottom: 1px solid #aaa;
+}
+
+#active_dialog article {
+    padding: 0.5rem;
+}
+
+#active_dialog button {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 90px;
+    transition: transform 0.5s;
+}
+
+#active_dialog button:active {
+    transform: scale(0.9);
+}
+
+#active_dialog nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+#active_dialog .material-icons {
+    vertical-align: middle;
+    font-size: 1rem;
+}
